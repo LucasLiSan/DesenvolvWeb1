@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.mais-vendidos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.mais-vendidos h1 {
+    font-size: 80px;
+}
+
+.carrossel img {
+    width: 30%;
+    height: 180px;
+    object-fit: cover;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);;
+    transform-origin: center;
+    transform: perspective(800px) rotateY(25deg);
+    transition: 0.5s;
+}
+
+.carrossel {
+    max-width: 600px;
+    max-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.carrossel:hover img {
+    opacity: 0.3;
+}
+
+.carrossel img:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:nth-child(odd) {
+    background: #ccc;
+}
+
+div:before {
+    content: attr(data-text);
+    color: #262626;
+    font-size: 8em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul {
+    width: 100%;
+    background: #000;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #fff;
+    line-height: 50px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
