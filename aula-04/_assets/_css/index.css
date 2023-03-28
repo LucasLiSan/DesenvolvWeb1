@@ -26,7 +26,6 @@ body {
 }
 
 .carrossel img {
-    width: 30%;
     height: 180px;
     object-fit: cover;
     -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);;
@@ -34,6 +33,81 @@ body {
     transform: perspective(800px) rotateY(25deg);
     transition: 0.5s;
 }
+
+#img1, #img2, #img3, #img4, #img5,
+#img6, #img7, #img8, #img9, #img10 {
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.capa {
+    height: 180px;
+}
+
+.text {
+    margin-top: 25px;
+    width: 415px;
+    height: 50px;
+    display: none;
+    color: #000;
+    font-weight: bolder;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.text label {
+    text-align: center;
+}
+
+.text label:nth-child(even) {
+    color: #f00;
+}
+
+#img1:hover .text {
+    display: flex;
+}
+
+#img2:hover .text {
+    display: flex;
+}
+
+#img3:hover .text {
+    display: flex;
+}
+
+#img4:hover .text {
+    display: flex;
+}
+
+#img5:hover .text {
+    display: flex;
+}
+
+#img6:hover .text {
+    display: flex;
+}
+
+#img7:hover .text {
+    display: flex;
+}
+
+#img8:hover .text {
+    display: flex;
+}
+
+#img9:hover .text {
+    display: flex;
+}
+
+#img10:hover .text {
+    display: flex;
+}
+
 
 .carrossel {
     max-width: 600px;
