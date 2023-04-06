@@ -188,6 +188,11 @@ body {
     background: #ccc;
 }
 
+.title {
+    background-image: url(https://vinylgif.com/gifs/201411/spinning-vinyl-1.gif);
+    background-size: cover;
+}
+
 ul {
     width: 100%;
     background: #000;
