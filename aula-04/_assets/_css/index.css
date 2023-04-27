@@ -756,6 +756,10 @@ strong {
     flex-direction: column;
 }
 
+.cont-discos h1 {
+    margin-bottom: 15px;
+}
+
 .retorno-discos {
     display: flex;
     flex-direction: row;
