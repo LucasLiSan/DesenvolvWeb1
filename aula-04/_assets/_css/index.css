@@ -29,6 +29,8 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mais-vendidos h1 {
@@ -90,8 +92,9 @@ body {
     align-content: center;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #img1, #img2, #img3, #img4, #img5,
@@ -123,9 +126,9 @@ body {
     display: none;
     color: #000;
     font-weight: bolder;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     text-transform: uppercase;
 }
@@ -261,8 +264,19 @@ body {
 }
 
 .title {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-image: url(https://vinylgif.com/gifs/201411/spinning-vinyl-1.gif);
     background-size: cover;
+}
+
+.inicio {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-style: italic;
 }
 
 ul {
@@ -658,9 +672,9 @@ strong {
 
 .queda {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: center;  
     justify-content: center;
 }
 
@@ -734,6 +748,7 @@ strong {
 .retorno p {
     width: 40%;
     text-align: justify;
+    font-size: 25px;
 }
 
 .cont-discos {
