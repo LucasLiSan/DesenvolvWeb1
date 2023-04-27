@@ -54,14 +54,44 @@ body {
 
 .ladoB {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-evenly;
+    justify-content: center;
+    background-image: linear-gradient(#300000,#FF0000);
 }
 
-.ladoB img{
-    width: 20%;
+.ladoB h3 {
+    margin-bottom: 60px;
+    font-size: 60px;
+    color:silver;
+       text-shadow:
+       4px 4px 1px #300000,
+       4px 6px 1px #400000,
+       4px 8px 1px #500000,
+       4px 10px 1px #600000,
+       4px 12px 1px #700000,
+       4px 14px 1px #800000,
+       4px 16px 1px #900000,
+       4px 18px 1px #A00000,
+       4px 20px 1px #B00000,
+       4px 22px 1px #C00000,
+       4px 24px 1px #D00000,
+       4px 26px 1px #E00000,
+       4px 28px 1px #F00000,
+       4px 30px 1px #FA0000,
+       4px 32px 1px #FB0000,
+       4px 34px 1px #FC0000,
+       4px 36px 1px #FD0000,
+       4px 38px 1px #FE0000,
+       4px 40px 2px #FF0000;
+}
+
+.vinilAoContrario{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #img1, #img2, #img3, #img4, #img5,
@@ -73,7 +103,8 @@ body {
     align-items: center;
 }
 
-#img11, #img12, #img13 {
+#img11, #img12, #img13, #img14,
+#img15, #img16, #img17, #img18 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -163,6 +194,22 @@ body {
     display: flex;
 }
 
+#img15:hover .text {
+    display: flex;
+}
+
+#img16:hover .text {
+    display: flex;
+}
+
+#img17:hover .text {
+    display: flex;
+}
+
+#img18:hover .text {
+    display: flex;
+}
+
 
 .carrossel {
     max-width: 600px;
@@ -202,6 +249,10 @@ body {
 }
 
 .section {
+    height: 100vh;
+}
+
+.sectionB {
     height: 100vh;
 }
 
@@ -613,17 +664,22 @@ strong {
     justify-content: center;
 }
 
+.cd {
+    display: flex;
+    width: 55.5%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cd img {
+    border-radius: 50px;
+}
+
 .paragraf-1, .paragraf-2 {
     width: 55.5%;
     text-align: justify;
-}
-
-.paragraf-1 {
-    margin-bottom: 70px;
-}
-
-.paragraf-2 {
-    margin-top: 70px;
 }
 
 .comparacao {
@@ -648,4 +704,57 @@ strong {
     border-color: #000 ;
     padding: 35px;
     background-color: #f5f5f55d;
+}
+
+.col-1 {
+    background-image: linear-gradient(#f5f5f55d 0%, #4d504d 40%);
+}
+
+.col-2 {
+    background-image: linear-gradient(#f5f5f55d 30%, #4d504d 60%);
+}
+
+.col-3 {
+    background-image: linear-gradient(#f5f5f55d 50%, #4d504d 80%);
+}
+
+.col-4 {
+    background-image: linear-gradient(#f5f5f55d 75%, #4d504d 95%);
+}
+
+.retorno {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+}
+
+.retorno p {
+    width: 40%;
+    text-align: justify;
+}
+
+.cont-discos {
+    display: flex;
+    flex-direction: column;
+}
+
+.retorno-discos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rd2 {
+    margin-top: 70px;
+}
+
+.carrossel-retorno {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
