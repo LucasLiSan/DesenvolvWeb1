@@ -1,3 +1,7 @@
+html {
+    overflow: hidden;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Rio_de_janeiro_1889_00.jpg/1200px-Rio_de_janeiro_1889_00.jpg);
