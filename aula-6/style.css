@@ -32,6 +32,7 @@ h3 {
 }
 
 .container {
+    position: relative;
     background-color: #0000007a;
     display: flex;
     flex-direction: column;
@@ -52,4 +53,16 @@ p {
     width: 75%;
     column-count: 3;
     margin-bottom: 20px;
+    z-index: 2;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    border-radius: 50px;
 }
