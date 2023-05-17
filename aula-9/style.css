@@ -1,0 +1,38 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.cenario {
+    position: absolute;
+}
+
+.personagem {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #;
+    animation:  100s infinite;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 200px;
+    }
+    40% {
+        left: 400px;
+    }
+    60% {
+        left: 600px;
+    }
+    80% {
+        left: 800px;
+    }
+    100% {
+        left: 1000px;
+    }
+}

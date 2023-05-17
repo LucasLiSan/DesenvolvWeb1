@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div {
+    border-radius: 100%;
+    margin: 10px;
+    border: solid #000000 1px;
+}
+
+#orbitMercurio {
+    
+}
+
+#sol {
+    width: 500px;
+    height: 500px;
+    background: yellow;
+}
+#mercurio {
+    width: 20px;
+    height: 20px;
+    background: grey;
+}
+#venus {
+    width: 30px;
+    height: 30px;
+    background: orange;
+}
+#terra {
+    width: 50px;
+    height: 50px;
+    background: blue;
+}
+#marte {
+    width: 45px;
+    height: 45px;
+    background: red;
+}
+#jupiter {
+    width: 150px;
+    height: 150px;
+    background: orangered;
+}
+#saturno {
+    width: 100px;
+    height: 100px;
+    background: goldenrod;
+}
+#urano {
+    width: 90px;
+    height: 90px;
+    background: cadetblue;
+}
+#netuno {
+    width: 80px;
+    height: 80px;
+    background: cornflowerblue;
+}
