@@ -1,38 +1,77 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-image: url(pokeball.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .cenario {
     position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cenario img {
+    width: 55%;
+    border: 10px solid #000000;
 }
 
 .personagem {
     position: relative;
-    width: 150px;
-    height: 150px;
-    background: #;
-    animation:  100s infinite;
+    width: 80px;
+    height: 80px;
+    left: 71%;
+    top: 51%;
+    background: #ff0000;
+    animation: move 10s infinite;
+    z-index: 999;
+    border-radius: 50%;
 }
 
 @keyframes move {
     0% {
-        left: 0;
+        left: 71%;
     }
-    20% {
-        left: 200px;
+    12.5% {
+        left: 64%;
+        top: 51%;
     }
-    40% {
-        left: 400px;
+    25% {
+        left: 64%;
+        top: 34%;
     }
-    60% {
-        left: 600px;
+    37.5% {
+        left: 48%;
+        top: 34%;
     }
-    80% {
-        left: 800px;
+    50% {
+        left: 48%;
+        top: 24%;
+    }
+    62.5% {
+        left: 30%;
+        top: 24%;
+    }
+    75% {
+        left: 30%;
+        top: 43%;
+    }
+    87.5% {
+        left: 39%;
+        top: 43%;
     }
     100% {
-        left: 1000px;
+        left: 39%;
+        top: 33%; 
     }
 }
