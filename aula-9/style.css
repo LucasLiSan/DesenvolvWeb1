@@ -42,36 +42,130 @@ body {
     0% {
         left: 71%;
     }
-    12.5% {
+    5% {
         left: 64%;
         top: 51%;
     }
-    25% {
+    10% {
         left: 64%;
         top: 34%;
     }
-    37.5% {
+    15% {
         left: 48%;
         top: 34%;
     }
-    50% {
+    20% {
         left: 48%;
         top: 24%;
     }
-    62.5% {
+    25% {
         left: 30%;
         top: 24%;
     }
-    75% {
+    30% {
         left: 30%;
         top: 43%;
     }
-    87.5% {
+    35% {
         left: 39%;
         top: 43%;
     }
-    100% {
+    40% {
         left: 39%;
         top: 33%; 
+    }
+    45% {
+        left: 39%;
+        top: 33%;
+    }
+    50% {
+        left: 39%;
+        top: 43%;
+    }
+    55% {
+        left: 30%;
+        top: 43%;
+    }
+    60% {
+        left: 30%;
+        top: 24%;
+    }
+    65% {
+        left: 48%;
+        top: 24%;
+    }
+    70% {
+        left: 48%;
+        top: 34%;
+    }
+    75% {
+        left: 64%;
+        top: 34%;
+    }
+    80% {
+        left: 64%;
+        top: 51%;
+    }
+    100% {
+        left: 71%;
+    }
+}
+
+.personagem-2 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 39%;
+    top: 30%; 
+    background: #ff9900;
+    animation: moveP2 10s infinite;
+    z-index: 998;
+    border-radius: 50%;
+}
+
+@keyframes moveP2 {
+    0% {
+        left: 39%;
+        top: 30%;
+    }
+    49% {
+        left: 39%;
+        top: 30%;
+    }
+    50% {
+        left: 39%;
+        top: 37%;
+    }
+    56.25% {
+        left: 30%;
+        top: 37%;
+    }
+    62.5% {
+        left: 30%;
+        top: 20%;
+    }
+    68.75% {
+        left: 49%;
+        top: 20%;
+    }
+    75% {
+        left: 49%;
+        top: 36%;
+    }
+    77% {
+        left: 49%;
+        top: 27%;
+    }
+    81.25% {
+        left: 65%;
+        top: 27%;
+    }
+    87.5%{
+        left: 65%;
+        top: 44%;
+    }
+    100% {
+        left: 69%;
+        top: 44%;
     }
 }
