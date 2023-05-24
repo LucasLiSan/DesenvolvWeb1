@@ -31,9 +31,8 @@ body {
     width: 80px;
     height: 80px;
     left: 71%;
-    top: 51%;
-    background: #ff0000;
-    animation: move 10s infinite;
+    top: 50%;
+    animation: move 120s infinite;
     z-index: 999;
     border-radius: 50%;
 }
@@ -43,68 +42,68 @@ body {
         left: 71%;
     }
     5% {
-        left: 64%;
-        top: 51%;
+        left: 65%;
+        top: 50%;
     }
     10% {
-        left: 64%;
-        top: 34%;
+        left: 65%;
+        top: 36%;
     }
     15% {
         left: 48%;
-        top: 34%;
+        top: 36%;
     }
     20% {
         left: 48%;
-        top: 24%;
+        top: 30%;
     }
     25% {
         left: 30%;
-        top: 24%;
+        top: 30%;
     }
     30% {
         left: 30%;
-        top: 43%;
+        top: 45%;
     }
     35% {
         left: 39%;
-        top: 43%;
+        top: 45%;
     }
     40% {
         left: 39%;
-        top: 33%; 
+        top: 38%; 
     }
     45% {
         left: 39%;
-        top: 33%;
+        top: 45%;
     }
     50% {
-        left: 39%;
-        top: 43%;
+        left: 30%;
+        top: 45%;
     }
     55% {
         left: 30%;
-        top: 43%;
+        top: 30%;
     }
     60% {
-        left: 30%;
-        top: 24%;
+        left: 48%;
+        top: 30%;
     }
     65% {
         left: 48%;
-        top: 24%;
+        top: 30%;
     }
     70% {
         left: 48%;
-        top: 34%;
+        top: 36%;
     }
     75% {
-        left: 64%;
-        top: 34%;
+        left: 65%;
+        top: 36%;
     }
     80% {
-        left: 64%;
-        top: 51%;
+        left: 65%;
+        top: 50%;
     }
     100% {
         left: 71%;
@@ -118,7 +117,7 @@ body {
     left: 39%;
     top: 30%; 
     background: #ff9900;
-    animation: moveP2 10s infinite;
+    animation: moveP2 120s infinite;
     z-index: 998;
     border-radius: 50%;
 }
@@ -167,5 +166,18 @@ body {
     100% {
         left: 69%;
         top: 44%;
+    }
+}
+
+.animation {
+    height:27px;
+    width:22px;
+    background:url(red-sprite.png) -0px -68px no-repeat;
+    animation: walk 500ms steps(3) infinite;
+}
+
+@keyframes walk {
+    100% {
+        background-position-x: -68px;
     }
 }
