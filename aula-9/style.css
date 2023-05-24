@@ -26,94 +26,421 @@ body {
     border: 10px solid #000000;
 }
 
-.personagem {
+.personagem-l {
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 27px;
+    height: 27px;
     left: 71%;
-    top: 50%;
-    animation: move 120s infinite;
+    top: 51%;
+    animation: move-l 120s infinite;
     z-index: 999;
     border-radius: 50%;
 }
 
-@keyframes move {
+@keyframes move-l {
     0% {
         left: 71%;
+        top: 51%;
     }
     5% {
+        opacity: 1;
         left: 65%;
-        top: 50%;
+        top: 51%;
     }
     10% {
+        opacity: 0;
         left: 65%;
         top: 36%;
     }
     15% {
+        opacity: 1;
         left: 48%;
         top: 36%;
     }
     20% {
+        opacity: 0;
         left: 48%;
         top: 30%;
     }
     25% {
+        opacity: 1;
         left: 30%;
         top: 30%;
     }
     30% {
+        opacity: 0;
         left: 30%;
         top: 45%;
     }
     35% {
+        opacity: 0;
         left: 39%;
         top: 45%;
     }
     40% {
+        opacity: 0;
         left: 39%;
         top: 38%; 
     }
     45% {
+        opacity: 0;
         left: 39%;
         top: 45%;
     }
     50% {
+        opacity: 1;
         left: 30%;
         top: 45%;
     }
     55% {
+        opacity: 0;
         left: 30%;
         top: 30%;
     }
     60% {
+        opacity: 0;
         left: 48%;
         top: 30%;
     }
     65% {
+        opacity: 0;
         left: 48%;
         top: 30%;
     }
     70% {
+        opacity: 0;
         left: 48%;
         top: 36%;
     }
     75% {
+        opacity: 0;
         left: 65%;
         top: 36%;
     }
     80% {
+        opacity: 0;
+        left: 65%;
+        top: 51%;
+    }
+    100% {
+        opacity: 0;
+        left: 71%;
+    }
+}
+
+.personagem-r {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    left: 71%;
+    top: 48%;
+    animation: move-r 120s infinite;
+    z-index: 998;
+    border-radius: 50%;
+}
+
+@keyframes move-r {
+    0% {
+        opacity: 0;
+        left: 71%;
+        top: 48%;
+    }
+    5% {
+        opacity: 0;
+        left: 65%;
+        top: 48%;
+    }
+    10% {
+        opacity: 0;
+        left: 65%;
+        top: 36%;
+    }
+    15% {
+        opacity: 0;
+        left: 48%;
+        top: 36%;
+    }
+    20% {
+        opacity: 0;
+        left: 48%;
+        top: 30%;
+    }
+    25% {
+        opacity: 0;
+        left: 30%;
+        top: 30%;
+    }
+    30% {
+        opacity: 0;
+        left: 30%;
+        top: 45%;
+    }
+    35% {
+        opacity: 1;
+        left: 39%;
+        top: 45%;
+    }
+    40% {
+        opacity: 0;
+        left: 39%;
+        top: 38%; 
+    }
+    45% {
+        opacity: 0;
+        left: 39%;
+        top: 45%;
+    }
+    50% {
+        opacity: 0;
+        left: 30%;
+        top: 45%;
+    }
+    55% {
+        opacity: 0;
+        left: 30%;
+        top: 30%;
+    }
+    60% {
+        opacity: 1;
+        left: 48%;
+        top: 30%;
+    }
+    65% {
+        opacity: 0;
+        left: 48%;
+        top: 30%;
+    }
+    70% {
+        opacity: 1;
+        left: 48%;
+        top: 36%;
+    }
+    75% {
+        opacity: 0;
+        left: 65%;
+        top: 36%;
+    }
+    80% {
+        opacity: 1;
+        left: 65%;
+        top: 48%;
+    }
+    100% {
+        opacity: 1;
+        left: 71%;
+    }
+}
+
+.personagem-t {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    left: 71.2%;
+    top: 45.26%;
+    animation: move-t 120s infinite;
+    z-index: 997;
+    border-radius: 50%;
+}
+
+@keyframes move-t {
+    0% {
+        opacity: 0;
+        left: 71%;
+        top: 50%;
+    }
+    5% {
+        opacity: 0;
+        left: 65%;
+        top: 50%;
+    }
+    10% {
+        opacity: 1;
+        left: 65%;
+        top: 36%;
+    }
+    15% {
+        opacity: 0;
+        left: 48%;
+        top: 36%;
+    }
+    20% {
+        opacity: 1;
+        left: 48%;
+        top: 30%;
+    }
+    25% {
+        opacity: 0;
+        left: 30%;
+        top: 30%;
+    }
+    30% {
+        opacity: 0;
+        left: 30%;
+        top: 45%;
+    }
+    35% {
+        opacity: 0;
+        left: 39%;
+        top: 45%;
+    }
+    40% {
+        opacity: 1;
+        left: 39%;
+        top: 38%; 
+    }
+    45% {
+        opacity: 0;
+        left: 39%;
+        top: 45%;
+    }
+    50% {
+        opacity: 0;
+        left: 30%;
+        top: 45%;
+    }
+    55% {
+        opacity: 1;
+        left: 30%;
+        top: 30%;
+    }
+    60% {
+        opacity: 0;
+        left: 48%;
+        top: 30%;
+    }
+    65% {
+        opacity: 0;
+        left: 48%;
+        top: 30%;
+    }
+    70% {
+        opacity: 0;
+        left: 48%;
+        top: 36%;
+    }
+    75% {
+        opacity: 0;
+        left: 65%;
+        top: 36%;
+    }
+    80% {
+        opacity: 0;
         left: 65%;
         top: 50%;
     }
     100% {
+        opacity: 0;
+        left: 71%;
+    }
+}
+
+.personagem-b {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    left: 71.12%;
+    top: 42.48%;
+    animation: move-b 120s infinite;
+    z-index: 996;
+    border-radius: 50%;
+}
+
+@keyframes move-b {
+    0% {
+        opacity: 0;
+        left: 71%;
+        top: 50%;
+    }
+    5% {
+        opacity: 0;
+        left: 65%;
+        top: 50%;
+    }
+    10% {
+        opacity: 0;
+        left: 65%;
+        top: 36%;
+    }
+    15% {
+        opacity: 0;
+        left: 48%;
+        top: 36%;
+    }
+    20% {
+        opacity: 0;
+        left: 48%;
+        top: 30%;
+    }
+    25% {
+        opacity: 0;
+        left: 30%;
+        top: 30%;
+    }
+    30% {
+        opacity: 1;
+        left: 30%;
+        top: 45%;
+    }
+    35% {
+        opacity: 0;
+        left: 39%;
+        top: 45%;
+    }
+    40% {
+        opacity: 0;
+        left: 39%;
+        top: 38%; 
+    }
+    45% {
+        opacity: 1;
+        left: 39%;
+        top: 45%;
+    }
+    50% {
+        opacity: 0;
+        left: 30%;
+        top: 45%;
+    }
+    55% {
+        opacity: 0;
+        left: 30%;
+        top: 30%;
+    }
+    60% {
+        opacity: 0;
+        left: 48%;
+        top: 30%;
+    }
+    65% {
+        opacity: 1;
+        left: 48%;
+        top: 30%;
+    }
+    70% {
+        opacity: 0;
+        left: 48%;
+        top: 36%;
+    }
+    75% {
+        opacity: 1;
+        left: 65%;
+        top: 36%;
+    }
+    80% {
+        opacity: 0;
+        left: 65%;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
         left: 71%;
     }
 }
 
 .personagem-2 {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
     left: 39%;
     top: 30%; 
     background: #ff9900;
@@ -169,10 +496,31 @@ body {
     }
 }
 
-.animation {
-    height:27px;
-    width:22px;
+.animation-l {
+    width: 27px;
+    height: 27px;
     background:url(red-sprite.png) -0px -68px no-repeat;
+    animation: walk 500ms steps(3) infinite;
+}
+
+.animation-r {
+    width: 27px;
+    height: 27px;
+    background:url(red-sprite.png) 0px -101px no-repeat;
+    animation: walk 500ms steps(3) infinite;
+}
+
+.animation-t {
+    width: 27px;
+    height: 27px;
+    background:url(red-sprite.png) -0px -32px no-repeat;
+    animation: walk 500ms steps(3) infinite;
+}
+
+.animation-b {
+    width: 27px;
+    height: 27px;
+    background:url(red-sprite.png) 0px 0px no-repeat;
     animation: walk 500ms steps(3) infinite;
 }
 
