@@ -41,119 +41,108 @@ body {
     0% {
         left: 71%;
         top: 51%;
-    }
-    5% {
         opacity: 1;
+    }
+    6.25% {
         left: 65.5%;
         top: 51%;
+        opacity: 1;
     }
-    5.1% {
+    6.35% {
         opacity: 0;
     }
-    10% {
-        opacity: 0;
+    12.5% {
         left: 65.5%;
         top: 33%;
+        opacity: 0;
     }
-    10.1%{
+    12.6% {
         opacity: 1;
     }
-    15% {
-        opacity: 1;
+    18.75% {
         left: 48.5%;
         top: 33%;
-    }
-    15.1%{
-        opacity: 0;
-    }
-    20% {
-        opacity: 0;
-        left: 48.5%;
-        top: 25%;
-    }
-    20.1%{
         opacity: 1;
+    }
+    18.85% {
+        opacity: 0;
     }
     25% {
+        left: 48.5%;
+        top: 25%;
+        opacity: 0;
+    }
+    25.1% {
         opacity: 1;
+    }
+    31.25% {
         left: 30.5%;
         top: 25%;
+        opacity: 1;
     }
-    25.1%{
+    31.35% {
         opacity: 0;
     }
-    30% {
-        opacity: 0;
+    37.5% {
         left: 30.5%;
         top: 44%;
-    }
-    35% {
         opacity: 0;
+    }
+    43.75% {
         left: 39.5%;
         top: 44%;
-    }
-
-    40% {
         opacity: 0;
-        left: 39.5%;
-        top: 40%; 
-    }
-
-    45% {
-        opacity: 0;
-        left: 39.5%;
-        top: 44%;
-    }
-    45.1% {
-        opacity: 1;
     }
     50% {
+        left: 39.5%;
+        top: 39%;
+        opacity: 0;
+    }
+    56.25% {
+        left: 39.5%;
+        top: 44%;
+        opacity: 0;
+    }
+    56.35% {
         opacity: 1;
+    }
+    62.5% {
         left: 30.5%;
         top: 44%;
+        opacity: 1;
     }
-    50.1% {
+    62.6% {
         opacity: 0;
     }
-    55% {
-        opacity: 0;
+    68.75% {
         left: 30.5%;
         top: 25%;
-    }
-    60% {
         opacity: 0;
-        left: 48.5%;
-        top: 25%;
-    }
-    65% {
-        opacity: 0;
-        left: 48.5%;
-        top: 36%;
-    }
-    70% {
-        opacity: 0;
-        left: 65.5%;
-        top: 33%;
     }
     75% {
+        left: 48.5%;
+        top: 25%;
         opacity: 0;
+    }
+    81.25% {
+        left: 48.5%;
+        top: 33%;
+        opacity: 0;
+    }
+    87.5% {
+        left: 65.5%;
+        top: 33%;
+        opacity: 0;
+    }
+    93.75% {
         left: 65.5%;
         top: 51%;
-    }
-    80% {
         opacity: 0;
-        left: 71%;
-        top: 51%;
-    }
-    90% {
-        opacity: 0;
-        left: 71%;
-        top: 51%;
     }
     100% {
-        opacity: 0;
-        left: 71%;
+        left: 75.5%;
         top: 51%;
+        opacity: 1;
     }
 }
 
@@ -170,93 +159,119 @@ body {
 
 @keyframes move-r {
     0% {
-        opacity: 0;
         left: 71%;
         top: 48%;
-    }
-    5% {
         opacity: 0;
-        left: 65%;
+    }
+    6.25% {
+        left: 65.5%;
         top: 48%;
-    }
-    10% {
         opacity: 0;
-        left: 65%;
-        top: 36%;
     }
-    15% {
+    6.35% {
         opacity: 0;
-        left: 48%;
-        top: 36%;
     }
-    20% {
-        opacity: 0;
-        left: 48%;
+    12.5% {
+        left: 65.5%;
         top: 30%;
+        opacity: 0;
+    }
+    12.6% {
+        opacity: 0;
+    }
+    18.75% {
+        left: 48.5%;
+        top: 30%;
+        opacity: 0;
+    }
+    18.85% {
+        opacity: 0;
     }
     25% {
+        left: 48.5%;
+        top: 22%;
         opacity: 0;
-        left: 30%;
-        top: 30%;
     }
-    30% {
+    31.25% {
+        left: 30.5%;
+        top: 22%;
         opacity: 0;
-        left: 30%;
-        top: 45%;
     }
-    35% {
+    37.5% {
+        left: 30.5%;
+        top: 41%;
+        opacity: 0;
+    }
+    37.6% {
         opacity: 1;
-        left: 39%;
-        top: 45%;
     }
-    40% {
-        opacity: 0;
-        left: 39%;
-        top: 38%; 
+    43.75% {
+        left: 39.5%;
+        top: 41%;
+        opacity: 1;
     }
-    45% {
+    43.85% {
         opacity: 0;
-        left: 39%;
-        top: 45%;
     }
     50% {
-        opacity: 0;
-        left: 30%;
-        top: 45%;
-    }
-    55% {
-        opacity: 0;
-        left: 30%;
-        top: 30%;
-    }
-    60% {
-        opacity: 1;
-        left: 48%;
-        top: 30%;
-    }
-    65% {
-        opacity: 0;
-        left: 48%;
-        top: 30%;
-    }
-    70% {
-        opacity: 1;
-        left: 48%;
+        left: 39.5%;
         top: 36%;
+        opacity: 0;
+    }
+    50.1% {
+        opacity: 0;
+    }
+    56.25% {
+        left: 39.5%;
+        top: 41%;
+        opacity: 0;
+    }
+    62.5% {
+        left: 30.5%;
+        top: 41%;
+        opacity: 0;
+    }
+    68.75% {
+        left: 30.5%;
+        top: 22%;
+        opacity: 0;
+    }
+    68.85% {
+        opacity: 1;
     }
     75% {
-        opacity: 0;
-        left: 65%;
-        top: 36%;
-    }
-    80% {
+        left: 48.5%;
+        top: 22%;
         opacity: 1;
-        left: 65%;
+    }
+    75.1% {
+        opacity: 0;
+    }
+    81.25% {
+        left: 48.5%;
+        top: 30%;
+        opacity: 0;
+    }
+    81.35% {
+        opacity: 1;
+    }
+    87.5% {
+        left: 65.5%;
+        top: 30%;
+        opacity: 1;
+    }
+    87.6% {
+        opacity: 0;
+    }
+    93.75% {
+        left: 65.5%;
         top: 48%;
+        opacity: 0;
     }
     100% {
-        opacity: 1;
-        left: 71%;
+        left: 75.5%;
+        top: 48%;
+        opacity: 0;
     }
 }
 
@@ -272,127 +287,116 @@ body {
 }
 
 @keyframes move-t {
-    0%, 100% {
-        opacity: 0;
+    0% {
         left: 71.2%;
         top: 45.26%;
-    }
-    5%, 75% {
         opacity: 0;
-        left: 65.59%;
+    }
+    6.25% {
+        left: 65.7%;
         top: 45.26%;
+        opacity: 0;
     }
-    5.1% {
+    6.35% {
         opacity: 1;
     }
-    10%, 70% {
-        opacity: 1;
-        left: 65.59%;
+    12.5% {
+        left: 65.7%;
         top: 27.26%;
+        opacity: 1;
     }
-    10.1% {
+    12.6% {
         opacity: 0;
     }
-    15%, 65% {
-        opacity: 0;
-        left: 48.59%;
+    18.75% {
+        left: 48.7%;
         top: 27.26%;
+        opacity: 0;
     }
-    15.1% {
+    18.85% {
         opacity: 1;
     }
-    20%, 60% {
-        opacity: 1;
-        left: 48.59%;
+    25% {
+        left: 48.7%;
         top: 19.26%;
+        opacity: 1;
     }
-    20.1% {
+    25.1% {
         opacity: 0;
     }
-    25%, 55% {
-        opacity: 0;
-        left: 30.59%;
+    31.25% {
+        left: 30.7%;
         top: 19.26%;
-    }
-    30%, 50% {
         opacity: 0;
-        left: 30.59%;
-        top: 38.26%;
     }
-    35%, 45% {
+    37.5% {
+        left: 30.7%;
+        top: 38.26%;
         opacity: 0;
-        left: 39.59%;
-        top: 38.26%;
     }
-    35.1% {
+    43.75% {
+        left: 39.7%;
+        top: 38.26%;
+        opacity: 0;
+    }
+    43.85% {
         opacity: 1;
     }
-
-    40% {
-        opacity: 1;
-        left: 39.59%;
-        top: 34.26%; 
-    }
-    40.1% {
+    49.1% {
         opacity: 0;
-    }
-
-    /*45% {
-        opacity: 0;
-        left: 39.59%;
-        top: 38.26%;
     }
     50% {
+        left: 39.7%;
+        top: 33.26%;
         opacity: 0;
-        left: 39.59%;
+    }
+    
+    56.25% {
+        left: 39.7%;
         top: 38.26%;
-    }*/
-    50.1% {
+        opacity: 0;
+    }
+    62.5% {
+        left: 30.7%;
+        top: 38.26%;
+        opacity: 0;
+    }
+    62.6% {
         opacity: 1;
     }
-    /*55% {
+    68.75% {
+        left: 30.7%;
+        top: 19.26%;
         opacity: 1;
-        left: 30.59%;
-        top: 38.26%;
-    }*/
-    55.1% {
-        opacity: 0;
     }
-    /*60% {
+    68.85% {
         opacity: 0;
-        left: 30.59%;
-        top: 19.26%;
-    }
-    65% {
-        opacity: 0;
-        left: 48.59%;
-        top: 19.26%;
-    }
-    70% {
-        opacity: 0;
-        left: 48.59%;
-        top: 27.26%;
     }
     75% {
+        left: 48.7%;
+        top: 19.26%;
         opacity: 0;
-        left: 65.59%;
+    }
+    81.25% {
+        left: 48.7%;
         top: 27.26%;
-    }
-    80% {
         opacity: 0;
-        left: 65.59%;
-        top: 45.26%;
     }
-    90% {
+    87.5% {
+        left: 65.7%;
+        top: 27.26%;
         opacity: 0;
-        left: 71.2%;
+    }
+    93.75% {
+        left: 65.7%;
         top: 45.26%;
+        opacity: 0;
     }
     100% {
-        opacity: 0;
-        left: 71.2%;
+        left: 75.7%;
         top: 45.26%;
-    }*/
+        opacity: 0;
+    }
 }
 
 .personagem-b {
@@ -408,93 +412,113 @@ body {
 
 @keyframes move-b {
     0% {
+        left: 71.12%;
+        top: 42.48%;
         opacity: 0;
-        left: 71%;
-        top: 50%;
     }
-    5% {
+    6.25% {
+        left: 65.6%;
+        top: 42.48%;
         opacity: 0;
-        left: 65%;
-        top: 50%;
     }
-    10% {
+    12.5% {
+        left: 65.5%;
+        top: 24.48%;
         opacity: 0;
-        left: 65%;
-        top: 36%;
     }
-    15% {
+    18.75% {
+        left: 48.6%;
+        top: 24.48%;
         opacity: 0;
-        left: 48%;
-        top: 36%;
-    }
-    20% {
-        opacity: 0;
-        left: 48%;
-        top: 30%;
     }
     25% {
+        left: 48.6%;
+        top: 16.48%;
         opacity: 0;
-        left: 30%;
-        top: 30%;
     }
-    30% {
+    31.25% {
+        left: 30.6%;
+        top: 16.48%;
+        opacity: 0;
+    }
+    31.35% {
         opacity: 1;
-        left: 30%;
-        top: 45%;
     }
-    35% {
-        opacity: 0;
-        left: 39%;
-        top: 45%;
-    }
-    40% {
-        opacity: 0;
-        left: 39%;
-        top: 38%; 
-    }
-    45% {
+    37.5% {
+        left: 30.6%;
+        top: 35.48%;
         opacity: 1;
-        left: 39%;
-        top: 45%;
+    }
+    37.6% {
+        opacity: 0;
+    }
+    43.75% {
+        left: 39.6%;
+        top: 35.48%;
+        opacity: 0;
     }
     50% {
+        left: 39.6%;
+        top: 30.48%;
         opacity: 0;
-        left: 30%;
-        top: 45%;
     }
-    55% {
-        opacity: 0;
-        left: 30%;
-        top: 30%;
-    }
-    60% {
-        opacity: 0;
-        left: 48%;
-        top: 30%;
-    }
-    65% {
+    50.1% {
         opacity: 1;
-        left: 48%;
-        top: 30%;
     }
-    70% {
+    56.25% {
+        left: 39.6%;
+        top: 35.48%;
+        opacity: 1;
+    }
+    56.35% {
         opacity: 0;
-        left: 48%;
-        top: 36%;
+    }
+    62.5% {
+        left: 30.6%;
+        top: 35.48%;
+        opacity: 0;
+    }
+    68.75% {
+        left: 30.6%;
+        top: 16.48%;
+        opacity: 0;
     }
     75% {
-        opacity: 1;
-        left: 65%;
-        top: 36%;
-    }
-    80% {
+        left: 48.6%;
+        top: 16.48%;
         opacity: 0;
-        left: 65%;
-        top: 50%;
+    }
+    75.1% {
+        opacity: 1;
+    }
+    81.25% {
+        left: 48.6%;
+        top: 24.48%;
+        opacity: 1;
+    }
+    81.35% {
+        opacity: 0;
+    }
+    87.5% {
+        left: 65.6%;
+        top: 24.48%;
+        opacity: 0;
+    }
+    87.6% {
+        opacity: 1;
+    }
+    93.75% {
+        left: 65.6%;
+        top: 42.48%;
+        opacity: 1;
+    }
+    93.85% {
+        opacity: 0;
     }
     100% {
+        left: 75.6%;
+        top: 42.48%;
         opacity: 0;
-        left: 71%;
     }
 }
 
