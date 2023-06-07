@@ -522,80 +522,10 @@ body {
     }
 }
 
-.personagem-2l {
-    position: relative;
-    width: 51px;
-    height: 39px;
-    left: 39%;
-    top: 24%; 
-    animation: moveP2 280s infinite;
-    z-index: 998;
-    border-radius: 50%;
-}
-
-@keyframes moveP2 {
-    0% {
-        left: 39%;
-        top: 24%;
-        opacity: 0;
-    }
-    54.5% {
-        opacity: 1;
-    }
-    55.5% {
-        left: 39%;
-        top: 32%;
-        opacity: 1;
-    }
-    61% {
-        left: 39%;
-        top: 30%;
-        opacity: 1;
-    }
-    66.5% {
-        left: 30%;
-        top: 14%;
-        opacity: 1;
-    }
-    66.6% {
-        opacity: 0;
-    }
-    72% {
-        left: 48%;
-        top: 14%;
-        opacity: 0;
-    }
-    73% {
-        left: 48%;
-        top: 28%;
-        opacity: 0;
-    }
-    77.5% {
-        left: 48%;
-        top: 21%;
-        opacity: 0;
-    }
-    83% {
-        left: 64%;
-        top: 21%;
-        opacity: 0;
-    }
-    88.5% {
-        left: 64%;
-        top: 38%;
-        opacity: 0;
-    }
-    100% {
-        left: 74%;
-        top: 38%;
-        opacity: 0;
-    }
-}
-
 .animation-l {
     width: 27px;
     height: 27px;
-    background:url(red-sprite.png) -0px -68px no-repeat;
+    background:url(red-sprite.png) 0px -68px no-repeat;
     animation: walk 500ms steps(3) infinite;
 }
 
@@ -609,32 +539,19 @@ body {
 .animation-t {
     width: 27px;
     height: 27px;
-    background:url(red-sprite.png) -0px -32px no-repeat;
+    background:url(red-sprite.png) 0px -32px no-repeat;
     animation: walk 500ms steps(3) infinite;
 }
 
 .animation-b {
     width: 24px;
     height: 27px;
-    background:url(red-sprite.png) -5px 0px no-repeat;
+    background:url(red-sprite.png) 5px 0px no-repeat;
     animation: walk 500ms steps(3) infinite;
-}
-
-.animation-2l {
-    height: 39px;
-    width: 51px;
-    background: url(geodude-l.png) 3px 0px no-repeat;
-    animation: walk-p2 1s steps(3) infinite;
 }
 
 @keyframes walk {
     100% {
         background-position-x: -68px;
-    }
-}
-
-@keyframes walk-p2 {
-    100% {
-        background-position-x: -147px;
     }
 }
