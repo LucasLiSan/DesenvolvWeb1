@@ -13,7 +13,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 0;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -33,8 +33,6 @@ body {
     left: 71%;
     top: 51%;
     animation: move-l 120s infinite;
-    z-index: 999;
-    border-radius: 50%;
 }
 
 @keyframes move-l {
@@ -153,8 +151,6 @@ body {
     left: 71%;
     top: 48%;
     animation: move-r 120s infinite;
-    z-index: 998;
-    border-radius: 50%;
 }
 
 @keyframes move-r {
@@ -282,8 +278,6 @@ body {
     left: 71.2%;
     top: 45.26%;
     animation: move-t 120s infinite;
-    z-index: 997;
-    border-radius: 50%;
 }
 
 @keyframes move-t {
@@ -401,13 +395,11 @@ body {
 
 .personagem-b {
     position: relative;
-    width: 27px;
+    width: 23px;
     height: 27px;
     left: 71.12%;
     top: 42.48%;
     animation: move-b 120s infinite;
-    z-index: 996;
-    border-radius: 50%;
 }
 
 @keyframes move-b {
@@ -544,9 +536,9 @@ body {
 }
 
 .animation-b {
-    width: 24px;
+    width: 23px;
     height: 27px;
-    background:url(red-sprite.png) 5px 0px no-repeat;
+    background:url(red-sprite.png) -5px 0px no-repeat;
     animation: walk 500ms steps(3) infinite;
 }
 
