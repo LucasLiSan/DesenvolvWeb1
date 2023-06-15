@@ -32,7 +32,7 @@ body {
     height: 27px;
     left: 71%;
     top: 51%;
-    animation: move-l 120s infinite;
+    animation: move-l 50s infinite linear;
 }
 
 @keyframes move-l {
@@ -150,7 +150,7 @@ body {
     height: 27px;
     left: 71%;
     top: 48%;
-    animation: move-r 120s infinite;
+    animation: move-r 50s infinite linear;
 }
 
 @keyframes move-r {
@@ -277,7 +277,7 @@ body {
     height: 27px;
     left: 71.2%;
     top: 45.26%;
-    animation: move-t 120s infinite;
+    animation: move-t 50s infinite linear;
 }
 
 @keyframes move-t {
@@ -399,7 +399,7 @@ body {
     height: 27px;
     left: 71.12%;
     top: 42.48%;
-    animation: move-b 120s infinite;
+    animation: move-b 50s infinite linear;
 }
 
 @keyframes move-b {
